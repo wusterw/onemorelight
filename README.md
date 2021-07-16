@@ -82,7 +82,7 @@ onemorelight_bl <- function(dataframe, datetime, title){
 
 ### Function 2a: density_scatter (for use with numerical, non-chronological data + y-axis labels)
 Arguments:
-<br> **dataframe**, a data.frame object with one column of dates (in any format) and one column of values (of class numeric).
+<br> **dataframe**, a data.frame object with one column of numbers (of class character or numeric) and one column of values (of class numeric).
 <br> **title**, a string that designates your desired plot title.
 
 ``` {r}
@@ -113,7 +113,7 @@ density_scatter <- function(dataframe, title){
 
 ### Function 2b: density_scatter_bl (for use with numerical, non-chronological data + no y-axis labels)
 Arguments:
-<br> **dataframe**, a data.frame object with one column of dates (in any format) and one column of values (of class numeric).
+<br> **dataframe**, a data.frame object with one column of numbers (of class character or numeric) and one column of values (of class numeric).
 <br> **title**, a string that designates your desired plot title.
 
 ``` {r}
